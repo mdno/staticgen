@@ -11,7 +11,7 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 gem "middleman-syntax"
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
